@@ -1,0 +1,13 @@
+{
+    "name": "bnf-k2so-tweaks",
+    "title": "BnF K2SO Tweaks",
+    "version": "0.0.7",
+    "author": "BurgersNFries",
+    "factorio_version": "2.1",
+    "dependencis":[
+        "base >= 2.1.24",
+        "krastorio2",
+        "mineral-chemistry >=1.0.4",
+        "Age-of-Production>=2.3.5"
+    ]
+}

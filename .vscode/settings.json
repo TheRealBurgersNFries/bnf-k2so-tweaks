@@ -1,0 +1,12 @@
+{
+    "factorio.versions": [
+        {
+            "name": "Factorio",
+            "factorioPath": "/home/shayne/Games/factorio/bin/x64/factorio"
+        }
+    ],
+    "Lua.workspace.userThirdParty": [
+        "/home/shayne/.config/Code/User/workspaceStorage/df9daf2247fc5dc50b50d067ae02b524/justarandomgeek.factoriomod-debug/sumneko-3rd"
+    ],
+    "Lua.workspace.checkThirdParty": "ApplyInMemory"
+}
