@@ -9,6 +9,7 @@ for _,recipe in pairs(data.raw.recipe) do
             updated_recipe.ingredients[#updated_recipe.ingredients+1] = {type="item", name="aop-quicklime", amount=count}
             updated_recipe.categories = {"advanced-smelting"}
             updated_recipe.name = updated_recipe.name.."-advanced"
+            updated_recipe.localised_name = {"?",{"recipe-name."..recipe.name}, {"item-name."..recipe.name}}
             data:extend({updated_recipe})
         else
             recipe.categories[#recipe.categories+1] = "advanced-smelting"
